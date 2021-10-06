@@ -247,8 +247,7 @@ footer {
 .logo-foot {
     width: 150px;
     height: 30px;
-    margin: 50px 50px auto;
-    color: #25564B;
+    margin: 50px 645px 0;
 }
 
 footer ul {
@@ -260,7 +259,7 @@ footer ul {
 footer ul li {
     display: flex;
     text-align: center;
-    margin: 10px 30px;
+    margin: 20px 20px;
     padding: 0;
     list-style: none;
     color: #25564B;
@@ -269,7 +268,7 @@ footer ul li {
 
 .icons {
     width: 300px;
-    margin: 60px auto;
+    margin: 30px auto;
 }
 
 .icons img {
