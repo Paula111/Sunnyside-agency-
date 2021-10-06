@@ -18,7 +18,7 @@ body {
 
 header {
     position: relative;
-    background-image: url(/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
+    background-image: url(/images/desktop/image-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
@@ -64,7 +64,7 @@ nav ul li {
 
 nav .button {
     border: 3px solid #fff;
-    color: #000;
+    color: #23303E;
     font-size: 15px;
     border-radius: 25px;
     background-color: #ffff;
@@ -103,28 +103,28 @@ nav .button {
 }
 
 .image-area1 {
-    background-image: url(/sunnyside-agency-landing-page-main/images/desktop/image-transform.jpg);
+    background-image: url(/images/desktop/image-transform.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .image-area2 {
-    background-image: url(/sunnyside-agency-landing-page-main/images/desktop/image-stand-out.jpg);
+    background-image: url(/images/desktop/image-stand-out.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .image-area3 {
-    background-image: url(/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg);
+    background-image: url(/images/desktop/image-graphic-design.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .image-area4 {
-    background-image: url(/sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg);
+    background-image: url(/images/desktop/image-photography.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -138,18 +138,21 @@ nav .button {
 .image-text h2 {
     font-family: 'Fraunces', serif;
     font-size: 30px;
+    color: #23303E;
 }
 
 .image-text p {
     font-family: 'Barlow', sans-serif;
     margin-top: 35px;
+    color: #A7ABAE;
 }
 
 p.more-red,
 p.more-yellow {
     font-family: 'Fraunces', serif;
-    font-size: 19px;
+    font-size: 16px;
     text-transform: uppercase;
+    color: #23303E;
     text-align: left;
     margin-top: 35px;
     text-indent: 5px;
@@ -167,18 +170,23 @@ p.more-red {
 .image-text-design,
 .image-text-photography {
     position: absolute;
-    width: 30%;
-    margin-top: 400px;
+    color: #19536B;
+    margin-top: 20%;
 }
 
-.image-text-photography,
+.image-text-photography h2,
 .image-text-design h2 {
     font-family: 'Fraunces', serif;
+    padding: 20px;
 }
 
-.image-text-design,
+.image-text-design p,
 .image-text-photography p {
     font-family: 'Barlow', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+    margin-top: 20px;
 }
 
 section.testimonials {
@@ -187,8 +195,10 @@ section.testimonials {
 
 .testimonials .persons {
     display: flex;
+    /*
     padding: 15px;
     margin-top: 50px;
+*/
 }
 
 .testimonials h3 {
@@ -200,9 +210,9 @@ section.testimonials {
 }
 
 .persons img {
+    display: flex;
     border-radius: 50%;
     height: 100px;
-
 }
 
 .description p {
