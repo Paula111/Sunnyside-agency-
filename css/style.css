@@ -190,15 +190,7 @@ p.more-red {
 }
 
 section.testimonials {
-    margin: 20vh;
-}
-
-.testimonials .persons {
-    display: flex;
-    /*
-    padding: 15px;
-    margin-top: 50px;
-*/
+    margin: 10vh;
 }
 
 .testimonials h3 {
@@ -209,19 +201,29 @@ section.testimonials {
     letter-spacing: 5px;
 }
 
+.persons {
+    display: flex;
+    margin: 60px;
+}
+
 .persons img {
     display: flex;
     border-radius: 50%;
     height: 100px;
+    margin: 0 auto;
 }
 
 .description p {
     text-align: center;
     font-family: 'Barlow', sans-serif;
+    padding: 25px;
+    color: #23303E;
 }
 
 p.name {
     font-family: 'Fraunces', serif;
+    margin-top: 60px;
+    color: #23303E;
 }
 
 p.status {
