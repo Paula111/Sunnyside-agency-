@@ -21,7 +21,7 @@ header {
     background-image: url(/images/desktop/image-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 100vh;
 }
 
 h1 {
@@ -44,7 +44,11 @@ h1 {
     margin: 35px;
 }
 
-nav ul {
+.logo:hover {
+    opacity: 0.6;
+}
+
+nav ul  {
     position: absolute;
     display: flex;
     justify-content: space-between;
@@ -59,15 +63,25 @@ nav ul li {
     text-align: center;
     margin: 10px;
     padding: 15px;
-    color: #ffff;
+    color: #fff;
 }
 
-nav .button {
+nav a  {
+    text-decoration: none;
+    color:#fff;
+}
+
+nav a:hover {
+    opacity: 0.6;
+}
+
+nav .button a {
     border: 3px solid #fff;
     color: #23303E;
-    font-size: 15px;
+    font-size: 13px;
+    padding: 10px;
     border-radius: 25px;
-    background-color: #ffff;
+    background-color: #fff;
     font-family: 'Fraunces', serif;
     text-transform: uppercase;
 }
@@ -158,12 +172,12 @@ p.more-yellow {
     text-indent: 5px;
 }
 
-p.more-yellow {
-    background-color: #FAD400;
+p.more-yellow:hover{
+    text-decoration: underline solid #F1DE71 8px;
 }
 
-p.more-red {
-    background-color: #FE7867;
+p.more-red:hover {
+    text-decoration: underline solid #F7968A 8px;
 }
 
 
@@ -240,7 +254,7 @@ p.status {
 }
 
 footer {
-    min-height: 30vh;
+    min-height: 40vh;
     background-color: #76BCAE;
 }
 
@@ -266,6 +280,15 @@ footer ul li {
     font-family: 'Barlow', sans-serif;
 }
 
+footer a  {
+    text-decoration: none;
+    color: #25564B;
+}
+
+footer a:hover {
+    opacity: 0.6;
+}
+
 .icons {
     width: 300px;
     margin: 30px auto;
@@ -274,3 +297,8 @@ footer ul li {
 .icons img {
     padding: 25px;
 }
+
+.icons a img:hover{
+    opacity: 0.6;
+}
+
